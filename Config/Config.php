@@ -43,13 +43,13 @@
 	const SHAREDHASH = "TiendaVirtual";
 
 	//Datos Empresa
-	const DIRECCION = "Avenida las Américas Zona 13, Guatemala";
-	const TELEMPRESA = "+(502)78787845";
-	const WHATSAPP = "+50278787845";
-	const EMAIL_EMPRESA = "info@abelosh.com";
-	const EMAIL_PEDIDOS = "info@abelosh.com"; 
-	const EMAIL_SUSCRIPCION = "info@abelosh.com";
-	const EMAIL_CONTACTO = "info@abelosh.com";
+	const DIRECCION = "Cra 7 Tbis #76-12 Alfonzo Lopez, Cali-Colombia";
+	const TELEMPRESA = "+(602)2043459";
+	const WHATSAPP = "+57(314)7072792";
+	const EMAIL_EMPRESA = "jose.jdgo97@gmail.com";
+	const EMAIL_PEDIDOS = "jose.jdgo97@gmail.com"; 
+	const EMAIL_SUSCRIPCION = "jose.jdgo97@gmail.com";
+	const EMAIL_CONTACTO = "jose.jdgo97@gmail.com";
 
 	const CAT_SLIDER = "1,2,3";
 	const CAT_BANNER = "4,5,6";
