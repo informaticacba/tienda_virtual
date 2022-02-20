@@ -13,7 +13,7 @@
 	const DB_CHARSET = "utf8";
 
 	//Para envío de correo
-	const ENVIRONMENT = 1; // Local: 0, Produccón: 1;
+	const ENVIRONMENT = 0; // Local: 0, Produccón: 1;
 
 	//Deliminadores decimal y millar Ej. 24,1989.00
 	const SPD = ".";
@@ -35,7 +35,8 @@
 
 	//Datos envio de correo
 	const NOMBRE_REMITENTE = "Tienda Virtual";
-	const EMAIL_REMITENTE = "no-reply@abelosh.com";
+	// const EMAIL_REMITENTE = "no-reply@abelosh.com";
+	const EMAIL_REMITENTE = "jose.jdgo97@gmail.com";
 	const NOMBRE_EMPESA = "Tienda Virtual";
 	const WEB_EMPRESA = "www.abelosh.com";
 
@@ -43,8 +44,8 @@
 	const SHAREDHASH = "TiendaVirtual";
 
 	//Datos Empresa
-	const DIRECCION = "Cra 7 Tbis #76-12 Alfonzo Lopez, Cali-Colombia";
-	const TELEMPRESA = "+(602)2043459";
+	const DIRECCION = "Cra 7 Tbis #76-12 Alfonzo Lopez,<br> Cali-Colombia";
+	const TELEMPRESA = "+(602)3043459";
 	const WHATSAPP = "+57(314)7072792";
 	const EMAIL_EMPRESA = "jose.jdgo97@gmail.com";
 	const EMAIL_PEDIDOS = "jose.jdgo97@gmail.com"; 

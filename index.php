@@ -3,7 +3,7 @@
 	require_once("Helpers/Helpers.php");
 	$url = !empty($_GET['url']) ? $_GET['url'] : 'home/home';
 	$arrUrl = explode("/", $url);
-	$controller = $arrUrl[0];
+	$controller = $arrUrl[0];//creo que es innecesario
 	$method = $arrUrl[0];
 	$params = "";
 

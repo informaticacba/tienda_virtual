@@ -15,9 +15,9 @@
 		public function selectRoles()
 		{
 			$whereAdmin = "";
-			if($_SESSION['idUser'] != 1 ){
-				$whereAdmin = " and idrol != 1 ";
-			}
+			// if($_SESSION['idUser'] != 1 ){
+			// 	$whereAdmin = " and idrol != 1 ";
+			// }
 			//EXTRAE ROLES
 			$sql = "SELECT * FROM rol WHERE status != 0".$whereAdmin;
 			$request = $this->select_all($sql);
