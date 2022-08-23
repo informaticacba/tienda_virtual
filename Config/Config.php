@@ -1,6 +1,5 @@
 <?php 
-	const BASE_URL = "http://localhost/www/PruebaTecnica";
-	// const BASE_URL = "http://localhost/www/tienda_virtual";
+	const BASE_URL = "http://localhost/www/tienda_virtual";
 	//const BASE_URL = "https://abelosh.com/tiendavirtual";
 
 	//Zona horaria
@@ -8,8 +7,7 @@
 
 	//Datos de conexión a Base de Datos
 	const DB_HOST = "localhost";
-	// const DB_NAME = "db_tiendavirtual";
-	const DB_NAME = "prueba_tecnica_dev";
+	const DB_NAME = "db_tiendavirtual";
 	const DB_USER = "root";
 	const DB_PASSWORD = "";
 	const DB_CHARSET = "utf8";
