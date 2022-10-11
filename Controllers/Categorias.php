@@ -26,6 +26,8 @@
 		}
 
 		public function setCategoria(){
+			extract($_POST);
+			dep($_POST);
 			if($_POST){
 				if(empty($_POST['txtNombre']) || empty($_POST['txtDescripcion']) || empty($_POST['listStatus']) )
 				{
